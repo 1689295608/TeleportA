@@ -1,0 +1,17 @@
+name: TeleportA
+version: 0.1
+main: work.nekow.TeleportA
+api-version: 1.12
+commands:
+  tpa:
+    usage: /tpa <player>
+    description: teleport to a player
+  tpahere:
+    usage: /tpahere <player>
+    description: teleport a player here
+  tpaccept:
+    usage: /tpaccept <player>
+    description: accept the teleport request
+  tpdeny:
+    usage: /tpdeny <player>
+    description: deny the teleport request
