@@ -28,6 +28,9 @@ class TeleportA: JavaPlugin() {
         val tpdeny = getCommand("tpdeny")
         tpdeny!!.setExecutor(TpDenyCommandExecutor())
         tpdeny.tabCompleter = TpDenyCommandCompleter()
+        val tpcancel = getCommand("tpcancel")
+        tpcancel!!.setExecutor(TpCancelCommandExecutor())
+        tpcancel.tabCompleter = TpCancelCommandCompleter()
         logger.info("TeleportA is enabled")
     }
 }
@@ -51,7 +54,7 @@ fun foundPlayer(sender: CommandSender, name: String): Player? {
 }
 fun checkRequest(sender: Player, target: Player): Boolean {
     if (requests[target] == null || requests[target]?.get(sender) == null) {
-        sender.sendMessage(language("tpaccept-no-request"))
+        sender.sendMessage(language("tpa-no-request"))
         return false
     }
     return true
