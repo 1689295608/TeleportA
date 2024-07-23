@@ -10,7 +10,7 @@
     "tpahere-button-accept": "§a[接受]  ",
     "tpahere-button-deny": "§c[拒绝]",
     "tpahere-requested": "§a请求已发至 %s!",
-    "tpaccept-no-request": "§c该玩家并没有请求传送你!",
+    "tpa-no-request": "§c该玩家并没有请求传送你!",
     "tpa-accepted": "§a玩家 §f%s §a接受了传送请求!",
     "tpa-tpdeny": "§c玩家 §f%s §c拒绝了你的传送请求!",
     "tpaccept": "§a你接受了传送请求!",
@@ -19,6 +19,10 @@
     "usage-tpa": "语法: /tpa <玩家>",
     "usage-tpahere": "语法: /tpahere <玩家>",
     "usage-tpaccept": "语法: /tpaccept <玩家>",
-    "usage-tpdeny": "语法: /tpdeny <玩家>"
+    "usage-tpdeny": "语法: /tpdeny <玩家>",
+    "usage-tpcancel": "语法: /tpcancel <玩家>",
+    "already-tpa": "§c你已经请求传送了他, 请等待对方回应!",
+    "tpa-canceled": "§e对方取消了传送请求!",
+    "tpcancel": "§a你取消了传送请求!"
   }
 }
