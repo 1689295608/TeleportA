@@ -15,3 +15,6 @@ commands:
   tpdeny:
     usage: /tpdeny <player>
     description: deny the teleport request
+  tpcancel:
+    usage: /tpcancel <player>
+    description: cancel the teleport request
